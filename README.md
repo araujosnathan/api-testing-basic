@@ -60,5 +60,5 @@ I know that in some places it becomes necessary to use Gherkin in the API, I dis
 ## CI
 
 It was implemented also a GithubAction to run the API Tests in each push or pull request to the main branch.
-The job is also triggered by a cron job to run from Monday to Friday at 12 noon.
+The job is also triggered by a cron job (Commented) to run from Monday to Friday at 12 noon.
 To give more autonomy, there is also an Action to manually run the api testing job.
