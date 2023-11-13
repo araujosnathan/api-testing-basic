@@ -1,0 +1,8 @@
+name: API Tests - Manual Trigger
+
+on:
+  workflow_dispatch:
+jobs:
+  run-api-tests:
+    uses: araujosnathan/api-testing-basic/.github/workflows/api-tests.yml@main
+    secrets: inherit
