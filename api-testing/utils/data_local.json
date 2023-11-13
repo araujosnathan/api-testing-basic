@@ -1,0 +1,5 @@
+{
+    "environment": "local",
+    "userServiceBaseUrl": "http://127.0.0.1:8900/user",
+    "bookingServiceBaseUrl": "http://127.0.0.1:8900/booking"
+}
